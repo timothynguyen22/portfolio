@@ -1140,6 +1140,10 @@ section:nth-child(odd) .paragraph {
         font-size: 1rem;
     }
 
+    .arrow {
+        display: none;
+    }
+
     .header-logos {
         position: relative;
         display: inline-block;
