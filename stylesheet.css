@@ -1217,8 +1217,8 @@ section:nth-child(odd) .paragraph {
     }
 
     .project {
-        min-width: 80%;
-        min-height: 70vh;
+        min-width: 90%;
+        min-height: 60vh;
     }
 
     .vpet {
