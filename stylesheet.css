@@ -1143,11 +1143,11 @@ section:nth-child(odd) .paragraph {
     .header-logos {
         position: relative;
         display: inline-block;
-        height: 3vh;
+        height: 2vh;
     }
     
     .header-logo {
-        height: 3vh;
+        height: 2vh;
         margin-top: -0.5%;
     }
     
@@ -1157,12 +1157,12 @@ section:nth-child(odd) .paragraph {
         top: 0;
         left: 0;
         z-index: 99;
-        height: 3vh;
+        height: 2vh;
     }
     
     .header-logos:hover .header-hover {
         display: inline;
-        height: 3vh;
+        height: 2vh;
         margin-left: auto;
         margin-top: -0.5%;
         transition: all 0.3s ease 0s;
