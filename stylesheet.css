@@ -1402,6 +1402,29 @@ section:nth-child(odd) .paragraph {
         margin-top: 50%;
     }
 
+    .cure-feature {
+        width: 90vw;
+        margin-top: 50%;
+    }
+
+    .usyd-feature {
+        width: 80vw;
+        margin-top: 50%;
+    }
+
+    .postcard-feature {
+        width: 50vw;
+        margin-top: 50%;
+    }
+
+    .avent-feature {
+        width: 50vw;
+    }
+
+    .avent-hero-text h3 {
+        color: #011829;
+    }
+
     .wireframe {
         width: 80vw;
     }
@@ -1412,5 +1435,26 @@ section:nth-child(odd) .paragraph {
 
     .process {
         width: 90%;
+    }
+
+    .feature-poster {
+        width: 85vw;
+    }
+
+    .kilowatt-poster {
+        text-align: center;
+        width: 40vw;
+        margin-left: 3%;
+    }
+
+    .concept-img {
+        width: 90vw;
+        margin: 0 0 5% 0;
+    }
+
+    .document-img {
+        width: 100%;
+        margin: 0;
+
     }
 }
