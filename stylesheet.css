@@ -1177,9 +1177,10 @@ section:nth-child(odd) .paragraph {
     }
     
     .hero-text {
-        top: 20%;
+        top: 15%;
         left: 10%;
         right: 10%;
+        bottom: 15%;
     }
 
     .side-hero-text {
