@@ -1221,6 +1221,10 @@ section:nth-child(odd) .paragraph {
         min-height: 60vh;
     }
 
+    .project-container {
+        margin: 0;
+    }
+
     .vpet {
         width: 40vw;
     }
