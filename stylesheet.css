@@ -1139,6 +1139,11 @@ section:nth-child(odd) .paragraph {
     li, a {
         font-size: 1rem;
     }
+
+    .nav_links li {
+        display: inline-block;
+        padding: 0px 10px 5px;
+    }
     
     .hero-text {
         top: 20%;
