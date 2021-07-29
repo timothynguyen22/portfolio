@@ -1140,10 +1140,31 @@ section:nth-child(odd) .paragraph {
         font-size: 1rem;
     }
 
-    .header-logo {
-        height: 3vh;
+    .header-logos {
+        position: relative;
+        display: inline-block;
     }
-
+    
+    .header-logo {
+        height: 4vh;
+        margin-top: -0.5%;
+    }
+    
+    .header-hover {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99;
+    }
+    
+    .header-logos:hover .header-hover {
+        display: inline;
+        height: 4vh;
+        margin-left: auto;
+        margin-top: -0.5%;
+        transition: all 0.3s ease 0s;
+    }
     .nav_links li {
         display: inline-block;
         padding: 0px 10px 5px;
