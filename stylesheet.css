@@ -196,6 +196,7 @@ footer {
     text-align: center;
     top: 40%;
     left: 22%;
+    right: 22%;
     background: transparent;
     animation: transitionIn 3s ease;
     position: absolute;
