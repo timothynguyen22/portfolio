@@ -247,12 +247,12 @@ footer {
 .back {
     text-align: center;
     background: transparent;
+    color: #011829;
     position: absolute;
     font-size: 4em;
     top: 8%;
     left: 1%;
     cursor: pointer;
-    background: transparent;
 }
 
 .back:hover {
