@@ -258,7 +258,7 @@ footer {
     color:#011829;
 }
 
-.back:hover {
+.fa-angle-left:hover {
     transition: all 0.1s ease 0s;
     color: #72caff;
 }
