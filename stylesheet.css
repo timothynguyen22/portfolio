@@ -252,6 +252,7 @@ footer {
     top: 8%;
     left: 1%;
     cursor: pointer;
+    color:#011829;
 }
 
 .fa-angle-left {
@@ -436,6 +437,11 @@ footer {
     width: 15vw;
     background: transparent;
 }
+
+.meshme-hero-bg h1, h3 {
+    color: #011829;
+}
+
 
 .cure-feature {
     width: 50vw;
