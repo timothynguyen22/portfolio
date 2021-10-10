@@ -259,7 +259,7 @@ footer {
     color:#011829;
 }
 
-.back:hover {
+.fa-angle-left:hover {
     transition: all 0.1s ease 0s;
     color: #72caff;
 }
@@ -275,12 +275,14 @@ footer {
     width: 100%;
     background: transparent;
     overflow: hidden;
+    height: 80vh;
 }
 
 .about-hero-text {
     text-align: left;
     background: #011829;
     height: 30%;
+    width: 40%;
     top: 60%;
     right: 20%;
     left: 50%;
@@ -301,18 +303,18 @@ footer {
 }
 
 .portrait {
-    width: 30vw;
+    width: 30%;
     position: absolute;
-    top: 25%;
-    left: 25%;
+    top: 20%;
+    left: 30%;
     border-radius: 5px;
     box-shadow: 0px 0px 30px 0px #A5968C;
 }
 
 .about-info {
     color: #D6CCCB;
-    margin: 50% 10% 2% 15%;
-    padding: 8% 10% 0 10%;
+    width: 100%;
+    padding: 6% 10% 0 10%;
 }
 
 .about-info h3 {
@@ -1350,7 +1352,7 @@ section:nth-child(odd) .paragraph {
 
     .about-info {
         width: 90vw;
-        margin: 85vh 2% 2% 2%;
+        margin: 10vh 2% 2% 2%;
         padding: 8% 2% 0 2%;
     }
 
