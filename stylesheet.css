@@ -238,7 +238,8 @@ footer {
     color: white;
     position: absolute;
     font-size: 3em;
-    top: 95%;
+    top: 94%;
+    bottom: 2%;
     left: 50%;
     cursor: pointer;
     background: transparent;
