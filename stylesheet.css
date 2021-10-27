@@ -432,7 +432,8 @@ footer {
 }
 
 .vpet-feature {
-    width: 30vw;
+    max-width: 30vw;
+    min-width: 500px;
     background: transparent;
 }
 
