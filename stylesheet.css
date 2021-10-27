@@ -1333,10 +1333,6 @@ section:nth-child(odd) .paragraph {
         width: 50vw;
     }
 
-    .project-brief {
-        display: none;
-    }
-
     .portrait {
         width: 60vw;
         top: 15%;
@@ -1361,12 +1357,22 @@ section:nth-child(odd) .paragraph {
         margin: 15% 2% 0 2%;
     }
 
+
     .project-overview {
+        display: grid;
+        grid-template-columns: 95%; 
+        grid-template-rows: auto; 
+        gap: 0px 0px;
+        margin-left: 0;
+        padding-left: 5%;
         grid-template-areas:
-        "project-duration project-duration project-team project-team"
-        "project-role project-role project-tools project-tools";
-        width: 80vw;
-        height: 80vh;
+        "project-brief"
+        "project-duration"
+        "project-team"
+        "project-role"
+        "project-tools";
+        width: 100vw;
+        height: auto;
         margin-bottom: 10%;
     }
 
