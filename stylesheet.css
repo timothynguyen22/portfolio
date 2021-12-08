@@ -564,6 +564,10 @@ section:nth-child(odd) strong {
     background: transparent;
 }
 
+.documents-container {
+    width: 100%;
+    padding-top: 10%;
+}
 
 .links {
     font-family: 'Hind', sans-serif;
@@ -805,7 +809,9 @@ iframe {
 }
 
 .document-img {
-    margin-top: 10%;
+    display: block;
+    margin: 0 auto;
+    width: 60%;
 }
 
 /* MeshMe
@@ -922,4 +928,52 @@ iframe {
     margin: 0 auto;
     width: 20vw;
     margin-top: 25%;
+}
+
+/* RESPONSIVENESS
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+@media only screen and (max-width:1920px) {
+    h1 {
+        font-size: 4.75rem;
+        letter-spacing: 1.5px;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .hero-text {
+        padding: 22% 25% 10% 25%;
+    }
+}
+
+@media only screen and (max-width:1280px) {
+    h1 {
+        font-size: 2.75rem;
+
+    }
+    
+    h2 {
+        font-size: 1.25rem;
+    }
+
+    .header-logos {
+        display: none;
+    }
+
+    .nav_links li {
+        padding: 0px 20px 10px;
+    }
+
+    .hero {
+        height: 100vh;
+    }
+
+    .hero-text {
+        padding: 50% 5% 10% 20%;
+    }
+
+    .project {
+        width: 90%;
+    }
 }
