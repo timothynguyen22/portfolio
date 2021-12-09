@@ -638,11 +638,13 @@ section:nth-child(odd) strong {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     gap: 10% 20%;
+    margin: 10% 0 10% 0;
     grid-auto-flow: row;
     grid-template-areas:
       "project-class project-team"
       "project-role project-tools";
 }
+
   
 .project-class { 
     grid-area: project-class;
