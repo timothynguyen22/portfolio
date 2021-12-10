@@ -124,6 +124,15 @@ li, a {
       }
 }
 
+.scroll {
+    position: absolute;
+    left: 52%;
+    top: 94.5%;
+    font-size: 1rem;
+    opacity: 60%;
+    font-weight: 200;
+}
+
 .icon-scroll,
 .icon-scroll:before {
   position: absolute;
