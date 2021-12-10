@@ -730,6 +730,7 @@ iframe {
     display: block;
     margin: 0 auto;
     margin-top: 5%;
+    background: transparent;
 }
 
 .criteria {
