@@ -1158,6 +1158,34 @@ iframe {
         margin-top: 20%;
     }
 
+    .postcard-hero {
+        padding: 60% 11% 5% 11%;
+    }
+
+    .postcard-feature {
+        width: 40vw;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .littlesun-hero {
+        padding: 60% 11% 5% 11%;
+    }
+
+    .littlesun-title {
+        font-size: 2rem;
+        line-height: 1.5;
+        margin-top: 5%;
+    }
+
+    .avent-hero {
+        padding: 60% 11% 5% 11%;
+    }
+
+    .avent-feature {
+        width: 50vw;
+    }
+
     .visualisation {
         width: 100%;
     }
