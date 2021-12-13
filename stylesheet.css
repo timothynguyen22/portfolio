@@ -1055,7 +1055,6 @@ iframe {
         
     }
     
-    
     .about-text h1 {
         font-size: 2rem;
         line-height: 1.6;
@@ -1076,5 +1075,90 @@ iframe {
     section:nth-child(odd) {
         background: transparent;
         padding: 5% 10% 5% 10%;
+    }
+
+    section:nth-child(odd) .second-h2 {
+        margin-top: 15%;
+    }
+
+    .scroll {
+        left: 56%;
+    }
+
+    iframe {
+        width: 100%;
+        height: 30vh;
+    }
+    
+    .usydunder-hero {
+        width: 100%;
+    }
+
+    .concept {
+        width: 100%;
+        height: 25vh;
+    }
+
+    .affinity {
+        width: 100%;
+    }
+
+    .process {
+        width: 100%;
+    }
+
+    .vpet-hero {
+        padding: 60% 11% 5% 11%;
+    }
+    
+    .vpet-feature {
+        width: 80vw;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .meshme-hero {
+        padding: 60% 11% 5% 11%;
+    }
+    
+    .meshme-feature {
+        width: 50vw;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .meshme-title {
+        font-size: 2.5rem;
+    }
+
+    .kilowatt-hero {
+        padding: 60% 11% 5% 11%;
+    }
+    
+    .vpet-feature {
+        width: 80vw;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .usydunder-hero {
+        padding: 60% 11% 5% 11%;
+    }
+    
+    .usyd-feature {
+        width: 80vw;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .wireframe {
+        width: 80vw;
+        display: block;
+        margin: 0 auto;
+        margin-top: 20%;
+    }
+
+    .visualisation {
+        width: 100%;
     }
 }
