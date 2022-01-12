@@ -374,6 +374,13 @@ li, a {
     text-align: center;
 }
 
+.booktopia-logo {
+    background: transparent;
+    width: 22vw;
+    margin-top: 13%;
+    text-align: center;
+}
+
 /* Project Hovers
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
@@ -473,6 +480,20 @@ li, a {
   
 .seven:hover > h2 {
     color: #011829;
+}
+
+.eight:hover {
+    background-color: #1D802C;
+    box-shadow: 0px 0px 30px 0px #1D802C;
+    top: -10px;
+}
+
+.eight:hover > h1 {
+    color: #D6CCCB;
+}
+  
+.eight:hover > h2 {
+    color: #D6CCCB;
 }
 
 /* Sections
@@ -1031,6 +1052,11 @@ iframe {
     .avent-logo {
         width: 55vw;
         margin-top: 20%;
+    }
+
+    .booktopia-logo {
+        width: 65vw;
+        margin-top: 15%;
     }
 
     .about-hero {
