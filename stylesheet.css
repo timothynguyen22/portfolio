@@ -939,8 +939,6 @@ iframe {
     padding: 15% 35% 5% 35%;
 }
 
-
-
 .littlesun-title {
     font-size: 2.5rem;
     text-align: center;
@@ -962,6 +960,29 @@ iframe {
     width: 20vw;
     margin-top: 25%;
 }
+
+/* Booktopia Sun
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.booktopia-hero {
+    background: #1D802C;
+    height: 100vh;
+    padding: 15% 35% 5% 35%;
+}
+
+.booktopia-feature {
+    background: transparent;
+    display: block;
+    margin: 0 auto;
+    width: 30vw;
+    margin-top: 25%;
+}
+
+.booktopia-title {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #EBE0DA;
+}
+
 
 /* RESPONSIVENESS
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
