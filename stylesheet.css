@@ -505,6 +505,10 @@ section {
     margin-bottom: 2%;
 } 
 
+ul {
+    background: transparent;
+}
+
 section:nth-child(even) {
     background: transparent;
     padding: 5% 20% 5% 20%;
