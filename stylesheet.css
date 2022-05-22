@@ -462,6 +462,39 @@ section h5 {
 }
 
 /* Media Screens */
+
+@media screen and (max-width: 1200px) {
+    html {
+        margin: 32px auto;
+        max-width: 1136px;
+        position: relative;
+    }
+
+    .hero {
+        height: 96vh;
+    }
+
+    .project_card {
+        max-width: 296px;
+    }
+
+    .project_row {
+        margin-bottom: 1em;
+    }
+
+    .affinity {
+        height: 80vh;
+    }
+
+    .diagram {
+        height: 80vh;
+    }
+
+    .project_video {
+        height: 80vh;
+    }
+}
+
 @media screen and (max-width: 1152px) {
     html {
         margin: 32px auto;
@@ -482,11 +515,11 @@ section h5 {
     }
 
     .affinity {
-        height: 70vh;
+        height: 80vh;
     }
 
     .diagram {
-        height: 70vh;
+        height: 80vh;
     }
 }
 
