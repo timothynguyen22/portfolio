@@ -413,10 +413,12 @@ section h5 {
 .img_container {
     width: 100%;
     margin: 2% 0;
+    display: flex;
 }
 
 .concept {
     width: 33%;
+    margin: 0 0.5%;
 }
 
 .diagram {
@@ -476,7 +478,7 @@ section h5 {
     }
 
     .hero {
-        height: 96vh;
+        height: 86vh;
         background-position: 62%;
 
     }
@@ -497,6 +499,10 @@ section h5 {
     .card_title h5 {
         padding-top: 3%;
         font-size: 1.05rem;
+    }
+
+    .concept {
+        width: 32%;
     }
 
     .affinity {
@@ -523,10 +529,10 @@ section h5 {
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 428px) {
     html {
         margin: 16px auto;
-        max-width: 288px;
+        max-width: 396px;
         position: relative;
     }
 
@@ -565,29 +571,61 @@ section h5 {
     }
 
     .hero {
-        height: 86vh;
+        height: 80vh;
         background-position: 30%;
         width: 100%;
         padding: 5%;
     }
 
-
     .hero_content {
         width: 90%;
     }
 
+    .vpet {
+        background-position: 44%;
+    }
+
+    .project_overview {
+        display: flex;
+        flex-direction: column;
+        border-bottom: none;
+        padding: 0;
+    }
+
+    .project_info {
+        width: 100%;
+        border: none;
+        border-bottom: 1.5px solid black;
+    }
+
+    .role, .duration, .tools {
+        width: 100%;
+        padding: 2% 0;
+        margin: 0;
+    }
+
     .project_card {
-        max-width: 200px;
-        height: 174px;
+        max-width: 360px;
+        height: 260px;
+        margin-bottom: 1em;
     }
 
     .project_row {
-        margin-bottom: 1em;
+        flex-direction: column;
     }
 
     .card_title h5 {
         padding-top: 3%;
         font-size: 1.05rem;
+    }
+
+    .img_container {
+        flex-direction: column;
+    }
+
+    .concept {
+        width: 80%;
+        margin: 2% auto;
     }
 
     .affinity {
@@ -603,7 +641,7 @@ section h5 {
     }
 
     .about-img {
-        width: 50vw;
+        width: 60vw;
         margin: 2% auto;
         height:inherit;
         float:left;
@@ -611,5 +649,262 @@ section h5 {
 
     .about_content {
         width: 100%;
+        padding-left: 0;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    html {
+        margin: 16px auto;
+        max-width: 358px;
+        position: relative;
+    }
+
+    h2 {
+        font-size: 1.563rem;
+    }
+
+    h4 {
+        font-size: 1.25rem;
+    }
+
+    h5 {
+        font-size: 1.1rem;
+
+    }
+
+    .nav_links li {
+        padding: 0 10px;
+    }
+
+    .nav_links {
+        padding: 0;
+    }
+
+    header {
+        padding: 0;
+        justify-content: center;
+    }
+
+    .header_logo {
+        display: none;
+    }
+
+    .nav_socials {
+        display: none;
+    }
+
+    .hero {
+        height: 80vh;
+        background-position: 0%;
+        width: 100%;
+        padding: 5%;
+    }
+
+    .hero_content {
+        width: 90%;
+    }
+
+    .vpet {
+        background-position: 44%;
+    }
+
+    .project_overview {
+        display: flex;
+        flex-direction: column;
+        border-bottom: none;
+        padding: 0;
+    }
+
+    .project_info {
+        width: 100%;
+        border: none;
+        border-bottom: 1.5px solid black;
+    }
+
+    .role, .duration, .tools {
+        width: 100%;
+        padding: 2% 0;
+        margin: 0;
+    }
+
+    .project_card {
+        max-width: 300px;
+        height: 260px;
+        margin-bottom: 1em;
+    }
+
+    .project_row {
+        flex-direction: column;
+    }
+
+    .card_title h5 {
+        padding-top: 3%;
+        font-size: 1.05rem;
+    }
+
+    .img_container {
+        flex-direction: column;
+    }
+
+    .concept {
+        width: 80%;
+        margin: 2% auto;
+    }
+
+    .affinity {
+        height: 70vh;
+    }
+
+    .diagram {
+        height: 70vh;
+    }
+
+    #about {
+        flex-direction: column-reverse;
+    }
+
+    .about-img {
+        width: 60vw;
+        margin: 2% auto;
+        height:inherit;
+        float:left;
+    }
+
+    .about_content {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .project_video {
+        height: 50vh;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    html {
+        margin: 16px auto;
+        max-width: 343px;
+        position: relative;
+    }
+
+    h2 {
+        font-size: 1.563rem;
+    }
+
+    h4 {
+        font-size: 1.25rem;
+    }
+
+    h5 {
+        font-size: 1.1rem;
+
+    }
+
+    .nav_links li {
+        padding: 0 10px;
+    }
+
+    .nav_links {
+        padding: 0;
+    }
+
+    header {
+        padding: 0;
+        justify-content: center;
+    }
+
+    .header_logo {
+        display: none;
+    }
+
+    .nav_socials {
+        display: none;
+    }
+
+    .hero {
+        height: 80vh;
+        background-position: 0%;
+        width: 100%;
+        padding: 5%;
+    }
+
+    .hero_content {
+        width: 90%;
+    }
+
+    .vpet {
+        background-position: 44%;
+    }
+
+    .project_overview {
+        display: flex;
+        flex-direction: column;
+        border-bottom: none;
+        padding: 0;
+    }
+
+    .project_info {
+        width: 100%;
+        border: none;
+        border-bottom: 1.5px solid black;
+    }
+
+    .role, .duration, .tools {
+        width: 100%;
+        padding: 2% 0;
+        margin: 0;
+    }
+
+    .project_card {
+        max-width: 300px;
+        height: 260px;
+        margin-bottom: 1em;
+    }
+
+    .project_row {
+        flex-direction: column;
+    }
+
+    .card_title h5 {
+        padding-top: 3%;
+        font-size: 1.05rem;
+    }
+
+    .img_container {
+        flex-direction: column;
+    }
+
+    .concept {
+        width: 80%;
+        margin: 2% auto;
+    }
+
+    .affinity {
+        height: 70vh;
+    }
+
+    .diagram {
+        height: 70vh;
+    }
+
+    #about {
+        flex-direction: column-reverse;
+    }
+
+    .about-img {
+        width: 60vw;
+        margin: 2% auto;
+        height:inherit;
+        float:left;
+    }
+
+    .about_content {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .project_video {
+        height: 50vh;
     }
 }
