@@ -60,6 +60,10 @@ ul {
     list-style-position: outside;
 }
 
+i {
+    background: transparent;
+}
+
 /* Navigation */
 
 header {
@@ -181,7 +185,7 @@ header {
 
 .primary:hover {
     cursor: pointer;
-    border: 1px solid black;
+    border: 1.5px solid black;
 }
 
 /* Projects */
@@ -323,6 +327,22 @@ footer p {
     text-align: center;
 }
 
+.kilowatt {
+    display: flex;
+    background: url(img/kilowatt/kilowatt-hero.png);
+    background-position: 76%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border: 1.5px solid black;
+    border-top: none;
+    align-items: center;
+    width: 100%;
+    padding: 5% 8%;
+    height: 75vh;
+    text-align: center;
+}
+
 .project-btn {
     background: transparent;
 }
@@ -419,6 +439,19 @@ section h5 {
 .concept {
     width: 33%;
     margin: 0 0.5%;
+    border: 1.5px solid black;
+}
+
+.concept_2 {
+    width: 50%;
+    margin: 2% 0.5%;
+    border: 1.5px solid black;
+}
+
+.concept_3 {
+    width: 90%;
+    margin: 2% 5%;
+    border: 1.5px solid black;
 }
 
 .diagram {
@@ -480,7 +513,29 @@ section h5 {
     .hero {
         height: 86vh;
         background-position: 62%;
+    }
 
+    .kilowatt {
+        background-position: 60%;
+    }
+
+    .project_overview {
+        display: flex;
+        flex-direction: column;
+        border-bottom: none;
+        padding: 0;
+    }
+
+    .project_info {
+        width: 100%;
+        border: none;
+        border-bottom: 1.5px solid black;
+    }
+
+    .role, .duration, .tools {
+        width: 100%;
+        padding: 2% 0;
+        margin: 0;
     }
 
     .hero_content {
@@ -585,6 +640,10 @@ section h5 {
         background-position: 44%;
     }
 
+    .kilowatt {
+        background-position: 46%;
+    }
+
     .project_overview {
         display: flex;
         flex-direction: column;
@@ -623,13 +682,14 @@ section h5 {
         flex-direction: column;
     }
 
-    .concept {
+    .concept, .concept_2 {
         width: 80%;
         margin: 2% auto;
     }
 
     .affinity {
         height: 70vh;
+        border: 1.5px solid black;
     }
 
     .diagram {
@@ -709,6 +769,10 @@ section h5 {
         background-position: 44%;
     }
 
+    .kilowatt {
+        background-position: 44%;
+    }
+
     .project_overview {
         display: flex;
         flex-direction: column;
@@ -747,7 +811,7 @@ section h5 {
         flex-direction: column;
     }
 
-    .concept {
+    .concept, .concept_2 {
         width: 80%;
         margin: 2% auto;
     }
