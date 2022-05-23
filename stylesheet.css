@@ -359,6 +359,22 @@ footer p {
     text-align: center;
 }
 
+.under {
+    display: flex;
+    background: url(img/under/under-hero.png);
+    background-position: 76%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border: 1.5px solid black;
+    border-top: none;
+    align-items: center;
+    width: 100%;
+    padding: 5% 8%;
+    height: 75vh;
+    text-align: center;
+}
+
 .project-btn {
     background: transparent;
 }
@@ -568,6 +584,10 @@ section h5 {
         background-position: 60%;
     }
 
+    .under {
+        background-position: 40%;
+    }
+
     .project_overview {
         display: flex;
         flex-direction: column;
@@ -691,6 +711,10 @@ section h5 {
 
     .kilowatt {
         background-position: 46%;
+    }
+
+    .under {
+        background-position: 10%;
     }
 
     .project_overview {
@@ -820,6 +844,10 @@ section h5 {
 
     .kilowatt {
         background-position: 44%;
+    }
+
+    .under {
+        background-position: 10%;
     }
 
     .project_overview {
