@@ -391,6 +391,22 @@ footer p {
     text-align: center;
 }
 
+.challenges {
+    display: flex;
+    background: url(img/challenges/challenge-hero.png);
+    background-position: 76%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border: 1.5px solid black;
+    border-top: none;
+    align-items: center;
+    width: 100%;
+    padding: 5% 8%;
+    height: 75vh;
+    text-align: center;
+}
+
 .project-btn {
     background: transparent;
 }
