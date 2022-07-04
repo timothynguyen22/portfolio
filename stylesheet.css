@@ -407,9 +407,9 @@ footer p {
     text-align: center;
 }
 
-.recent {
+.jewel {
     display: flex;
-    background: url(img/recent-hero.png);
+    background: url(img/jewel/jewel-hero.png);
     background-position: 76%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -793,7 +793,7 @@ section h5 {
         background-position: 10%;
     }
 
-    .recent {
+    .jewel {
         background-position: 10%;
     }
 
