@@ -589,6 +589,12 @@ section h5 {
     border: 1.5px solid black;
 }
 
+.prototype {
+    width: 100%;
+    height: 80vh;
+    margin: 2% 0;
+}
+
 /* Media Screens */
 
 @media screen and (max-width: 1200px) {
