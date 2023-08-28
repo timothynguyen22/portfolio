@@ -391,6 +391,22 @@ footer p {
     text-align: center;
 }
 
+.m2m {
+    display: flex;
+    background: url(img/m2m/m2m-hero.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border: 1.5px solid black;
+    border-top: none;
+    align-items: center;
+    width: 100%;
+    padding: 5% 8%;
+    height: 75vh;
+    text-align: center;
+}
+
 .about {
     display: flex;
     background: url(img/about-hero.png);
