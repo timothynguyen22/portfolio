@@ -283,7 +283,7 @@ header {
 .about_content {
     display: inline-block;
     padding-left: 48px;
-    width: 50vw;
+    width: 100%;
     align-items: right;
 }
 
@@ -327,9 +327,9 @@ footer p {
     text-align: center;
 }
 
-.kilowatt {
+.consumer {
     display: flex;
-    background: url(img/kilowatt/kilowatt-hero.png);
+    background: url(img/consumer/consumer-hero.png);
     background-position: 76%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -343,9 +343,9 @@ footer p {
     text-align: center;
 }
 
-.avent {
+.public {
     display: flex;
-    background: url(img/avent/avent-hero.png);
+    background: url(img/public-sector/public-sector-hero.png);
     background-position: 76%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -359,74 +359,10 @@ footer p {
     text-align: center;
 }
 
-.under {
+.traverse {
     display: flex;
-    background: url(img/under/under-hero.png);
+    background: url(img/traverse/traverse-hero.png);
     background-position: 76%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    border: 1.5px solid black;
-    border-top: none;
-    align-items: center;
-    width: 100%;
-    padding: 5% 8%;
-    height: 75vh;
-    text-align: center;
-}
-
-.postcard {
-    display: flex;
-    background: url(img/postcard/postcard-hero.png);
-    background-position: 76%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    border: 1.5px solid black;
-    border-top: none;
-    align-items: center;
-    width: 100%;
-    padding: 5% 8%;
-    height: 75vh;
-    text-align: center;
-}
-
-.challenges {
-    display: flex;
-    background: url(img/challenges/challenge-hero.png);
-    background-position: 76%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    border: 1.5px solid black;
-    border-top: none;
-    align-items: center;
-    width: 100%;
-    padding: 5% 8%;
-    height: 75vh;
-    text-align: center;
-}
-
-.jewel {
-    display: flex;
-    background: url(img/jewel/jewel-hero.png);
-    background-position: 76%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    border: 1.5px solid black;
-    border-top: none;
-    align-items: center;
-    width: 100%;
-    padding: 5% 8%;
-    height: 75vh;
-    text-align: center;
-}
-
-.m2m {
-    display: flex;
-    background: url(img/m2m/m2m-hero.png);
-    background-position:center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -455,9 +391,9 @@ footer p {
     text-align: center;
 }
 
-.traverse {
+.about {
     display: flex;
-    background: url(img/traverse/traverse-hero.png);
+    background: url(img/about-hero.png);
     background-position: 76%;
     background-repeat: no-repeat;
     background-size: cover;
